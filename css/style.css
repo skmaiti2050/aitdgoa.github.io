@@ -22,8 +22,8 @@
     top:0;
     left:0;
     right:0;
-    background: url("../img/bg.jpg
-        ");
+    background: url("../img/bg.jpg");
+
     background-attachment: fixed;
     background-size: 100%;
 }
