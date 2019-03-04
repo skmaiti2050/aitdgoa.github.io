@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-2 col-12 bg-white rounded-top tab-head">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="comp-tab" data-toggle="tab" href="#comp" role="tab" aria-controls="comp" aria-selected="true">COMP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="ece-tab" data-toggle="tab" href="#ece" role="tab" aria-controls="ece" aria-selected="false">ECE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="mech-tab" data-toggle="tab" href="#mech" role="tab" aria-controls="mech" aria-selected="false">MECH</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-8 offset-lg-2 bg-white p-3">   
+          <div class="tab-content mt-4" id="myTabContent">
+            <div class="tab-pane fade show active" id="comp" role="tabpanel" aria-labelledby="comp-tab">
+                <table style="width:100%">
+  <tr>
+    <th>Time/Day</th>
+	<th>Mon</th>
+	<th>Tue</th>
+	<th>Wed</th>
+	<th>Thu</th>
+	<th>Fri</th>
+  </tr>
+  <tr>
+	<th>9:00 - 10:00</th>
+        <td>EG</td>
+        <td>PL</td>
+        <td>EM-II</td>
+        <td>FETE</td>
+        <td>EG</td>
+  </tr>
+  <tr>
+    <th>10:00 - 11:00</th>
+        <td>EG(P)</td>
+        <td>EM-II</td>
+        <td>FETE</td>
+        <td>PL</td>
+        <td>EG(P)</td>
+  </tr>
+  <tr>
+    <th>11:00 - 12:00</th>
+        <td>EG(P)</td>
+        <td>AS</td>
+        <td>EM-II</td>
+        <td>ESS-I</td>
+        <td>EG(P)</td>
+  </tr>
+   <tr>
+    <th>12:00 - 12:45</th>
+        <td>L</td>
+        <td>u</td>
+        <td>n</td>
+        <td>c</td>
+        <td>h</td>
+  </tr>
+  <tr>
+    <th>12:45 - 1:45</th>
+        <td>EM-II</td>
+        <td>PRAC</td>
+        <td>PL</td>
+        <td>ESS-II</td>
+        <td>EM-II</td>
+  </tr>
+  <tr>
+    <th>1:45 - 2:45</th>
+        <td>AS</td>
+        <td>PRAC</td>
+        <td>WKSP</td>
+        <td>AS</td>
+        <td>ESS-I</td>
+  </tr>
+  <tr>
+    <th>2:45 - 3:00</th>
+        <td>-</td>
+        <td>T</td>
+        <td>e</td>
+        <td>a</td>
+        <td>-</td>
+  </tr>
+  <tr>
+    <th>3:00 - 4:00</th>
+        <td>PRAC</td>
+        <td>ESS-II</td>
+        <td>WKSP</td>
+        <td>PRAC</td>
+        <td>FETE</td>
+  </tr>
+  <tr>
+    <th>4:00 - 5:00</th>
+        <td>PRAC</td>
+        <td>S/FETE</td>
+        <td>WKSP</td>
+        <td>PRAC</td>
+        <td>S/PL</td>
+  </tr>
+  <tr>
+    <th>5:00 - 6:00</th>
+        <td>-</td>
+        <td>-</td>
+        <td>WKSP</td>
+        <td>-</td>
+        <td>-</td>
+  </tr>
+</table>
+            </div>
+            <div class="tab-pane fade" id="ece" role="tabpanel" aria-labelledby="ece-tab">
+                              <table style="width:100%">
+  <tr>
+    <th>Time/Day</th>
+	<th>Mon</th>
+	<th>Tue</th>
+	<th>Wed</th>
+	<th>Thu</th>
+	<th>Fri</th>
+  </tr>
+  <tr>
+	<th>9:00 - 10:00</th>
+        <td>EM-II</td>
+        <td>PRAC</td>
+        <td>PL</td>
+        <td>FETE</td>
+        <td>ESS-II</td>
+  </tr>
+  <tr>
+    <th>10:00 - 11:00</th>
+        <td>PRAC</td>
+        <td>PRAC</td>
+        <td>EM-II</td>
+        <td>EM-II</td>
+        <td>PL</td>
+  </tr>
+  <tr>
+    <th>11:00 - 12:00</th>
+        <td>PRAC</td>
+        <td>EM-II</td>
+        <td>EG</td>
+        <td>PL</td>
+        <td>EM-II</td>
+  </tr>
+   <tr>
+    <th>12:00 - 12:45</th>
+        <td>L</td>
+        <td>u</td>
+        <td>n</td>
+        <td>c</td>
+        <td>h</td>
+  </tr>
+  <tr>
+    <th>12:45 - 1:45</th>
+        <td>ESS-I</td>
+        <td>FETE</td>
+        <td>EG(P)</td>
+        <td>AS</td>
+        <td>FETE</td>
+  </tr>
+  <tr>
+    <th>1:45 - 2:45</th>
+        <td>EG</td>
+        <td>ESS-I</td>
+        <td>EF(P)</td>
+        <td>WKSP</td>
+        <td>AS</td>
+  </tr>
+  <tr>
+    <th>2:45 - 3:00</th>
+        <td>-</td>
+        <td>T</td>
+        <td>e</td>
+        <td>a</td>
+        <td>-</td>
+  </tr>
+  <tr>
+    <th>3:00 - 4:00</th>
+        <td>EG(P)</td>
+        <td>AS</td>
+        <td>ESS-II</td>
+        <td>WKSP</td>
+        <td>PRAC</td>
+  </tr>
+  <tr>
+    <th>4:00 - 5:00</th>
+        <td>EG(P)</td>
+        <td>S/FETE</td>
+        <td>S/PL</td>
+        <td>WKSP</td>
+        <td>PRAC</td>
+  </tr>
+  <tr>
+    <th>5:00 - 6:00</th>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>WKSP</td>
+        <td>-</td>
+  </tr>
+</table>
+            </div>
+            <div class="tab-pane fade" id="mech" role="tabpanel" aria-labelledby="mech-tab">
+                             <table style="width:100%">
+  <tr>
+    <th>Time/Day</th>
+	<th>Mon</th>
+	<th>Tue</th>
+	<th>Wed</th>
+	<th>Thu</th>
+	<th>Fri</th>
+  </tr>
+  <tr>
+	<th>9:00 - 10:00</th>
+        <td>PL</td>
+        <td>EM-II</td>
+        <td>ESS-II</td>
+        <td>EM-II</td>
+        <td>AS</td>
+  </tr>
+  <tr>
+    <th>10:00 - 11:00</th>
+        <td>EM-II</td>
+        <td>PL</td>
+        <td>PRAC-I</td>
+        <td>FETE</td>
+        <td>PRAC</td>
+  </tr>
+  <tr>
+    <th>11:00 - 12:00</th>
+        <td>FETE</td>
+        <td>EG</td>
+        <td>PRAC-I</td>
+        <td>EM-II</td>
+        <td>PRAC</td>
+  </tr>
+   <tr>
+    <th>12:00 - 12:45</th>
+        <td>L</td>
+        <td>u</td>
+        <td>n</td>
+        <td>c</td>
+        <td>h</td>
+  </tr>
+  <tr>
+    <th>12:45 - 1:45</th>
+        <td>AS</td>
+        <td>EG(P)</td>
+        <td>PRAC-II</td>
+        <td>ESS-I</td>
+        <td>PL</td>
+  </tr>
+  <tr>
+    <th>1:45 - 2:45</th>
+        <td>WKSP</td>
+        <td>EG(P)</td>
+        <td>PRAC-II</td>
+        <td>EG</td>
+        <td>ESS-II</td>
+  </tr>
+  <tr>
+    <th>2:45 - 3:00</th>
+        <td>-</td>
+        <td>T</td>
+        <td>e</td>
+        <td>a</td>
+        <td>-</td>
+  </tr>
+  <tr>
+    <th>3:00 - 4:00</th>
+        <td>WKSP</td>
+        <td>FETE</td>
+        <td>AS</td>
+        <td>EG(P)</td>
+        <td>EM-II</td>
+  </tr>
+  <tr>
+    <th>4:00 - 5:00</th>
+        <td>WKSP</td>
+        <td>S/PL</td>
+        <td>S/FETE</td>
+        <td>EG(P)</td>
+        <td>ESS-I</td>
+  </tr>
+  <tr>
+    <th>5:00 - 6:00</th>
+        <td>WKSP</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+  </tr>
+</table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
